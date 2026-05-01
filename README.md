@@ -14,8 +14,9 @@ Each finding follows a standard structure:
 
 | ID | Protocol Type | Severity | Invariant | Description |
 |----|---------------|----------|-----------|-------------|
-| [F-001](./F-001/) | Lending (Compound-style) | Critical | I2 (No Mint Inflation) | Exchange rate formula uses deposit_tokens instead of vault_balance — enables mint inflation >10,000% |
+| [F-001](./F-001/) | Lending (Compound-style) | Critical | I2 (No Mint Inflation) | Exchange rate formula uses deposit_tokens instead of vault_balance — enables mint inflation |
 | [F-002](./F-002/) | Oracle Integration | Critical | CROSS-1 (Manipulation Cost) | TWAP window configurable to 1 slot — enables atomic oracle manipulation + borrow |
+| [F-003](./F-003/) | Lending (Index-based) | Medium | ORA-3 (Stale Price) | Permanent oracle cache without staleness check — protocol operates on stale price data |
 
 ---
 
