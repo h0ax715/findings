@@ -1,8 +1,8 @@
 # F-002: TWAP Window Configurable to 1 Slot
 
-**Severity:** Critical
-**Protocol Type:** Oracle Integration (Pyth/Switchboard + Lending, Solana/Anchor)
-**Invariant Violated:** CROSS-1 (Oracle Manipulation Cost > Profit)
+**Severity:** Critical 
+**Protocol Type:** Oracle Integration (Pyth/Switchboard + Lending, Solana/Anchor) 
+**Invariant Violated:** CROSS-1 (Oracle Manipulation Cost > Profit) 
 **Date:** 2026
 
 ---
